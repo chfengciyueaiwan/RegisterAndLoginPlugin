@@ -1,0 +1,14 @@
+name: RegisterAndLoginPlugin-1.21
+version: 1.0.0
+main: chfeng.ciyueaiwan.registerAndLoginPlugin121.RegisterAndLoginPlugin121
+api-version: 1.21
+load: STARTUP
+authors: ["ciyueaiwan"]
+description: 登录注册插件，防止账号被盗
+commands:
+  register:
+    description: 注册账号
+    usage: /register <密码> <确认密码>
+  login:
+    description: 登录账号
+    usage: /login <密码>
