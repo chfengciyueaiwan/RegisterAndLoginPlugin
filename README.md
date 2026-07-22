@@ -23,6 +23,39 @@
 当前版本密码为明文存储，适合小型私人服务器使用，公网服务器请谨慎部署。
 后续版本会增加密码哈希加密、修改密码、超时踢出等功能，同时推出适配26.1的独立版本。
 
-## 📦编译方式
-```shell
-mvn clean package
+## 📂开源信息
+本项目采用 MIT License 开源
+源码仓库：https://github.com/chfengciyueaiwan/RegisterAndLoginPlugin
+欢迎提交反馈与PR，共同完善插件。
+
+---
+
+# Register And Login Plugin
+Lightweight offline-mode server registration & login plugin, effectively preventing account theft on offline servers.
+
+## ✨ Features
+1. **Register System**
+Command: `/register <Password> <ConfirmPassword>`
+Unregistered players will be restricted from moving and chatting. Only the register command can be executed. The two entered passwords must match, and you will log in automatically after successful registration.
+
+2. **Login System**
+Command: `/login <Password>`
+Registered players enter the server in locked status. You cannot move or chat until you enter the correct password and lift all restrictions.
+
+3. **Data Persistence**
+Storage path: `plugins/RegisterAndLoginPlugin/accounts/PlayerUUID.txt`
+Accounts are saved by player UUID. Your account will not be lost even if you change your in-game name, and data will survive server restarts.
+
+## ⚙️ Supported Server Software
+✅ Paper 1.21 ~ 1.21.11
+✅ Purpur 1.21.x
+❌ Not compatible with Spigot, Fabric, 26.1 new versions
+
+## ⚠️ Notice
+Passwords are stored in plain text in the current version. Suitable for small private servers. Use cautiously on public networks.
+Future updates: password hash encryption, password change command, offline timeout kick, and independent version for 26.1.
+
+## 📄 Open Source
+This project is open source under MIT License
+Source Code: https://github.com/chfengciyueaiwan/RegisterAndLoginPlugin
+Issues and Pull Requests are welcome.
