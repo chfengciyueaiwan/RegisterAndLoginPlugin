@@ -1,5 +1,5 @@
 name: RegisterAndLoginPlugin-1.21
-version: 1.0.0
+version: 1.0.2
 main: chfeng.ciyueaiwan.registerAndLoginPlugin121.RegisterAndLoginPlugin121
 api-version: 1.21
 load: STARTUP
@@ -12,3 +12,4 @@ commands:
   login:
     description: 登录账号
     usage: /login <密码>
+    aliases: [l]
