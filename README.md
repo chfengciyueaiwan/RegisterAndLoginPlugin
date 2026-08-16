@@ -13,6 +13,7 @@
 3. **数据持久化**
 玩家账号密码保存在 `plugins/RegisterAndLoginPlugin/accounts/玩家UUID.txt`
 使用玩家UUID作为文件名存储账号信息，不怕玩家改名导致账号丢失，服务器重启数据不会丢失。
+
 4. **安全防护**
 登录错误超过三次封禁IP30秒，防止暴力破解
 
@@ -37,31 +38,38 @@
 ---
 
 # Register And Login Plugin
-Lightweight offline-mode server registration & login plugin, effectively preventing account theft on offline servers.
+A lightweight offline-mode server registration and login plugin, effectively preventing account theft on offline servers.
 
-## ✨ Features
-1. **Register System**
-Command: `/register <Password> <ConfirmPassword>`
-Unregistered players will be restricted from moving and chatting. Only the register command can be executed. The two entered passwords must match, and you will log in automatically after successful registration.
+## ✨Features
+1. **Registration System**
+Command: `/register <password> <confirm password>`
+Unregistered players cannot move, chat, break blocks, pick up dropped items, etc., and can only execute the registration command. The two password entries must match. Successful registration automatically logs the player in.
 
 2. **Login System**
-Command: `/login <Password>`
-Registered players enter the server in locked status. You cannot move or chat until you enter the correct password and lift all restrictions.
+Command: `/login <password>`
+Registered players enter the server in a locked state, unable to move or chat. Entering the correct password logs them in and removes all restrictions.
 
 3. **Data Persistence**
-Storage path: `plugins/RegisterAndLoginPlugin/accounts/PlayerUUID.txt`
-Accounts are saved by player UUID. Your account will not be lost even if you change your in-game name, and data will survive server restarts.
+Player account passwords are saved in `plugins/RegisterAndLoginPlugin/accounts/playerUUID.txt`
+The player's UUID is used as the filename to store account information, so name changes won't cause account loss. Server restarts will not result in data loss.
 
-## ⚙️ Supported Server Software
+4. **Security Protection**
+Exceeding three failed login attempts results in a 30-second IP ban to prevent brute-force attacks.
+
+## ⚙️Supported Server Versions
+<<<<<<< HEAD
+✅ Paper 1.21 ~ 26.2
+=======
 ✅ Paper 1.21 ~ 1.21.11
+>>>>>>> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
 ✅ Purpur 1.21.x
-❌ Not compatible with Spigot, Fabric, 26.1 new versions
+❌ Spigot, Fabric, and 26.1 series new versions are not supported.
 
-## ⚠️ Notice
-Passwords are stored in plain text in the current version. Suitable for small private servers. Use cautiously on public networks.
-Future updates: password hash encryption, password change command, offline timeout kick, and independent version for 26.1.
+## ⚠️Note
+Currently, passwords are stored in plain text, suitable for small private servers. Please deploy with caution on public servers.
+Future versions will add password hashing encryption, password change functionality, timeout kick, and a standalone version compatible with 26.1.
 
-## 📄 Open Source
-This project is open source under MIT License
-Source Code: https://github.com/chfengciyueaiwan/RegisterAndLoginPlugin
-Issues and Pull Requests are welcome.
+## 📂Open Source Information
+This project is open-sourced under the MIT License.
+Source repository: https://github.com/chfengciyueaiwan/RegisterAndLoginPlugin
+Feedback and pull requests are welcome to help improve the plugin.
