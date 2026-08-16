@@ -6,7 +6,7 @@
 
     <groupId>chfeng.ciyueaiwan</groupId>
     <artifactId>Register-and-Login-Plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>Register-and-Login-Plugin</name>
