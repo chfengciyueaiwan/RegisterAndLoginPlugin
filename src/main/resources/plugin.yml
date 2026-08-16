@@ -1,5 +1,9 @@
 name: RegisterAndLoginPlugin-1.21
+<<<<<<< HEAD
 version: 1.0.4
+=======
+version: 1.0.2
+>>>>>>> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
 main: chfeng.ciyueaiwan.registerAndLoginPlugin121.RegisterAndLoginPlugin121
 api-version: 1.21
 load: STARTUP
