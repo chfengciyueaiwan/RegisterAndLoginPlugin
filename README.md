@@ -26,10 +26,6 @@
 ✅ Purpur 1.21.x
 ❌ 不支持 Spigot、Fabric、26.1 系列新版本
 
-## ⚠️注意
-当前版本密码为明文存储，适合小型私人服务器使用，公网服务器请谨慎部署。
-后续版本会增加密码哈希加密、修改密码、超时踢出等功能，同时推出适配26.1的独立版本。
-
 ## 📂开源信息
 本项目采用 MIT License 开源
 源码仓库：https://github.com/chfengciyueaiwan/RegisterAndLoginPlugin
@@ -64,10 +60,6 @@ Exceeding three failed login attempts results in a 30-second IP ban to prevent b
 >>>>>>> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
 ✅ Purpur 1.21.x
 ❌ Spigot, Fabric, and 26.1 series new versions are not supported.
-
-## ⚠️Note
-Currently, passwords are stored in plain text, suitable for small private servers. Please deploy with caution on public servers.
-Future versions will add password hashing encryption, password change functionality, timeout kick, and a standalone version compatible with 26.1.
 
 ## 📂Open Source Information
 This project is open-sourced under the MIT License.
