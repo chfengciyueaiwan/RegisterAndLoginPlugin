@@ -18,10 +18,7 @@
 登录错误超过三次封禁IP30秒，防止暴力破解
 
 ## ⚙️支持服务端
-<<<<<<< HEAD
 ✅ Paper 1.21 ~ 26.2
-=======
-✅ Paper 1.21 ~ 1.21.11
 >>>>>>> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
 ✅ Purpur 1.21.x
 ❌ 不支持 Spigot、Fabric、26.1 系列新版本
@@ -53,10 +50,7 @@ The player's UUID is used as the filename to store account information, so name 
 Exceeding three failed login attempts results in a 30-second IP ban to prevent brute-force attacks.
 
 ## ⚙️Supported Server Versions
-<<<<<<< HEAD
 ✅ Paper 1.21 ~ 26.2
-=======
-✅ Paper 1.21 ~ 1.21.11
 >>>>>>> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
 ✅ Purpur 1.21.x
 ❌ Spigot, Fabric, and 26.1 series new versions are not supported.
