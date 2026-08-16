@@ -19,7 +19,7 @@
 
 ## ⚙️支持服务端
 ✅ Paper 1.21 ~ 26.2
->>>>>>> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
+> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
 ✅ Purpur 1.21.x
 ❌ 不支持 Spigot、Fabric、26.1 系列新版本
 
@@ -51,7 +51,7 @@ Exceeding three failed login attempts results in a 30-second IP ban to prevent b
 
 ## ⚙️Supported Server Versions
 ✅ Paper 1.21 ~ 26.2
->>>>>>> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
+> 0c5fda95d35f1942bbb0e2f8c8608d2972b759ba
 ✅ Purpur 1.21.x
 ❌ Spigot, Fabric, and 26.1 series new versions are not supported.
 
